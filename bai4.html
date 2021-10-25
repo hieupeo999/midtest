@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let count = 0;
+    let arr = new Array();
+    for (let i = 1; i <= 100; i++) {
+
+        if (i % 3 === 0 || i % 7 === 0) {
+            count ++;
+            arr.push(i)
+        }
+    }
+    document.write("các số chia hết cho cả 3 và 7 là : " + count +"<br/>" + "Các số chia hết cho 3 và 7 là :" + arr);
+</script>
+</body>
+</html>
